@@ -1,0 +1,71 @@
+    .qrcode_image{
+        position: absolute;
+        margin-top: 185px;
+        margin-left: 129px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .bg{
+     width: 715px;
+     height: auto;
+     z-index: 1;
+     float: left;
+     left: 0;
+    }
+    .datadiri{
+         height: auto;
+         position: absolute;
+         z-index: 5;
+         padding-top: 95px;
+         padding-left: 120px;
+         text-align: left;
+    }
+    .datadiri td {
+        font-size: 12px;
+        /*margin-left: 10px;*/
+    }
+    table, th, td {
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 3px;
+        text-align: left;
+        font-size:11px;
+    }
+    .progstud{
+        height: auto;
+         position: absolute;
+         z-index: 5;
+         text-align: left;
+        padding-top: 28px;
+        padding-left: 360px;
+        width: auto;
+    }
+    .progstud{
+        width: 215px;
+        margin-left: 20px;
+    }
+    .progstud td {
+        font-size: 9px;
+        margin-left: 10px;
+    }
+
+    .lokasi{
+        height: auto;
+         position: absolute;
+         z-index: 5;
+         text-align: left;
+        padding-top: 142px;
+        padding-left: 380px;
+        width: auto;
+    }
+    .lokasi td {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    
+    p{
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
