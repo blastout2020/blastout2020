@@ -259,6 +259,15 @@
 										<span></span>
 
 									</div>
+									<div class="styled-input">
+
+										<input type="text" name="email" required>
+
+										<label>Email</label>
+
+										<span></span>
+
+									</div>
 
 									<div class="styled-input">
 
