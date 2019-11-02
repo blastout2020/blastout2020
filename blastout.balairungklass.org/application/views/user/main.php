@@ -141,63 +141,6 @@
         
     </div>
 
-	<!--<nav class="navbar navbar-default">
-
-		<div class="navbar-header navbar-left">
-
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-
-				<span class="sr-only">Toggle navigation</span>
-
-				<span class="icon-bar"></span>
-
-				<span class="icon-bar"></span>
-
-				<span class="icon-bar"></span>
-
-			</button>
-
-			<h1><a class="navbar-brand"><span>B</span>lastOut</a></h1>
-			<a class="navbar-brand" href="#">
-		        
-		        <img src="assets/ico/bo2020.png" display="block" width="50" height="65" alt="logo">
-	       
-	        </a>
-
-		</div>
-
-		
-
-		<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-
-			<nav class="cl-effect-6" id="cl-effect-6">
-
-				<ul class="nav navbar-nav">
-
-					<li class="active"><a href="#home" class="scroll"> Beranda</a></li>
-
-					<li><a href="#about" class="scroll">Tentang</a></li>
-
-					<li><a href="#services" class="scroll">Manfaat</a></li>
-
-					<li><a href="#team" class="scroll">Tim</a></li>
-
-					<li><a href="#testimoni" class="scroll">Testimoni</a></li>
-
-					<li><a href="#gallery" class="scroll">Galeri</a></li>
-
-					<li><a href="#" class="sign" data-toggle="modal" data-target="#mymodal"><i class="fa fa-sign-in" style="color: white" aria-hidden="true"></i> Login </a></li>
-
-				</ul>
-
-			</nav>
-
-		</div>
-
-	</nav>-->
-
-
-
 	<div class="clearfix"></div>
 
 </div>
@@ -242,11 +185,11 @@
 
 									<div class="styled-input">
 
-										<input type="text" name="Password" required="">
+										<input type="password" id="showPassword" name="Password" style="width:75%" required="">
 
 										<label>Password</label>
 
-										<span></span>
+										<input type="button"  onclick="myFunction()" value="show">
 
 									</div>
 
@@ -1466,6 +1409,16 @@
 	</div>
 
 </div>
+	<script>
+	  function myFunction() {
+	  var x = document.getElementById("showPassword");
+	  if (x.type === "password") {
+	    x.type = "text";
+	  } else {
+	    x.type = "password";
+	  }
+	}	
+	</script>
 
 <!--//gallery-->
 
