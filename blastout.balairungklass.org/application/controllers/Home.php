@@ -19,13 +19,15 @@ class Home extends CI_Controller {
 		if ($this->input->post('register')) {
 			$this->form_validation->set_rules('nama', 'Nama', 'trim|required');
 			$this->form_validation->set_rules('phone', 'Phone', 'trim|required');
-			$this->form_validation->set_rules('sekolah', 'Sekolah', 'trim|required'); 	
+			$this->form_validation->set_rules('sekolah', 'Sekolah', 'trim|required'); 
+			$this->form_validation->set_rules('email', 'Email', 'trim|required'); 
 			$this->form_validation->set_rules('jurusan', 'Jurusan', 'trim|required');
 
 			if ($this->form_validation->run() == TRUE) {
 				$nama = $this->input->post('nama');
 				$phone = $this->input->post('phone');
 				$sekolah = $this->input->post('sekolah');
+				$email = $this->input->post('email');
 				$jurusan = $this->input->post('jurusan');
 
 				$cek = $this->db->query("select * from peserta where nama = '".$nama."'")->num_rows();
